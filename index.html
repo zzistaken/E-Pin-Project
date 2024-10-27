@@ -27,6 +27,7 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/home.css" />
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,178 +37,323 @@
     />
   </head>
   <body>
-    <div class="container-fluid navtop">
-      <div class="logoArea">
-        <a href="index.html">
-          <img
-            id="logo"
-            src="/assets/images/itemsatis-logo.png"
-            alt="İtemsatış"
+    <header>
+      <div class="container-fluid navtop">
+        <div class="logoArea">
+          <a href="index.html">
+            <img
+              id="logo"
+              src="/assets/images/itemsatis-logo.png"
+              alt="İtemsatış"
+            />
+          </a>
+          <a href="#"
+            ><button id="langBtn">
+              <img
+                id="langSwitch"
+                src="/assets/images/lang-switch.png"
+                alt="TR/EN"
+              />
+              EN
+            </button></a
+          >
+        </div>
+        <div class="searchBox">
+          <input
+            type="search"
+            name="searchBar"
+            id="searchBar"
+            placeholder="Steam Cüzdan Kodu"
           />
-        </a>
-        <a href="#"
-          ><button id="langBtn">
+          <a href="#"
+            ><i id="searchIcon" class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+        <div class="userControls">
+          <div id="walletBtn" class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-regular fa-credit-card"></i>
+              <span id="balanceBadge" class="badge rounded-pill">0.00₺</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a id="addBalance" class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-coins"></i> Bakiye Yükle</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-wallet"></i> Para Çek</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="messageBtn">
+            <a href="#"><i class="fa-regular fa-comments"></i></a>
+          </div>
+          <div id="noticesBtn" class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-regular fa-bell"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li id="notice">
+                <a href="#"
+                  ><img
+                    id="messageIcon"
+                    src="/assets/images/message-icon.png"
+                    alt="Bildirim"
+                  />
+                  <div>
+                    <p id="noticeTitle">Teslimat Bildirimi</p>
+                    <p id="noticeDesc">⭐ Satın almış olduğunuz ürün satı...</p>
+                  </div></a
+                >
+              </li>
+              <li>
+                <a href="#"><button id="allNotices">Tüm Bildirimler</button></a>
+              </li>
+            </ul>
+          </div>
+          <div id="profileBtn" class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                id="profileImg"
+                src="/assets/images/zzistaken_pp2.png"
+                alt="Zzistaken"
+              />
+            </button>
+            <ul class="dropdown-menu">
+              <li id="user">
+                <a href="#"
+                  ><img
+                    id="levelBadge"
+                    src="/assets/images/level-badge.png"
+                    alt="Bildirim"
+                  />
+                  <div>
+                    <p id="noticeTitle">zzistaken</p>
+                    <p id="noticeDesc">0.00₺</p>
+                  </div></a
+                >
+              </li>
+              <li>
+                <a id="addBalance" class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-coins"></i> Bakiye Yükle</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-user"></i> Profilim</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-clipboard-user"></i> Kontrol Merkezi</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-basket-shopping"></i> Siparişlerim</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-store"></i> İlanlarım</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-wallet"></i> Para Çek</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-life-ring"></i> Destek Sistemi</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><i class="fa-solid fa-right-from-bracket"></i> Çıkış</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid navbar">
+        <ul>
+          <li class="navItem">
+            <a href="#"><i class="fa-solid fa-list"></i> Kategoriler</a>
+          </li>
+          <li class="navItem">
+            <a href="#"
+              ><i class="fa-solid fa-basket-shopping"></i> İlan Pazarı</a
+            >
+          </li>
+          <li class="navItem">
+            <a href="#"
+              ><i class="fa-solid fa-bag-shopping"></i> Alım İlanları</a
+            >
+          </li>
+          <li class="navItem">
+            <a id="giveaway" href="#"
+              ><i class="fa-solid fa-gift"></i> Çekilişler</a
+            >
+          </li>
+          <li class="navItem">
+            <a href="#"><i class="fa-solid fa-store"></i> Mağazalar</a>
+          </li>
+          <li class="navItem">
+            <a href="#"><i class="fa-solid fa-box-open"></i> Hediye Kartları</a>
+          </li>
+          <li class="navItem">
+            <a href="#"><i class="fa-solid fa-key"></i> CD-Key</a>
+          </li>
+          <a href="#">
+            <button id="addAdvert">
+              <i class="fa-solid fa-plus"></i> İlan Ekle
+            </button>
+          </a>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="container categories">
+        <div class="categoryBox">
+          <a href="#"
+            ><img src="/assets/images/categories/dc-249.png" alt="Discord"
+          /></a>
+          <a href="#"
+            ><img src="/assets/images/categories/valo-402.png" alt="Valorant"
+          /></a>
+          <a href="#"
+            ><img src="/assets/images/categories/pubg-568.png" alt="Pubg"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/lol-486.png"
+              alt="League of Legends"
+          /></a>
+          <a href="#"
+            ><img src="/assets/images/categories/steam-955.png" alt="Steam"
+          /></a>
+          <a href="#"
+            ><img src="/assets/images/categories/mine-122.png" alt="Minecraft"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/cs2-206.png"
+              alt="Counter Strike 2"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/fortnite-534.png"
+              alt="Fortnite"
+          /></a>
+          <a href="#"
+            ><img src="/assets/images/categories/zula-107.png" alt="Zula"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container slider">
+        <div class="row">
+          <div class="col-8 big-slider">
             <img
-              id="langSwitch"
-              src="/assets/images/lang-switch.png"
-              alt="TR/EN"
+              sizes="contain"
+              src="/assets/images/valorant-slide.png"
+              alt="Valorant"
             />
-            EN
-          </button></a
-        >
-      </div>
-      <div class="searchBox">
-        <input
-          type="search"
-          name="searchBar"
-          id="searchBar"
-          placeholder="Steam Cüzdan Kodu"
-        />
-        <a href="#"
-          ><i id="searchIcon" class="fa-solid fa-magnifying-glass"></i
-        ></a>
-      </div>
-      <div class="userControls">
-        <div id="walletBtn" class="dropdown">
-          <button
-            class="btn dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="fa-regular fa-credit-card"></i>
-            <span id="balanceBadge" class="badge rounded-pill">0.00₺</span>
-          </button>
-          <ul class="dropdown-menu">
-            <li>
-              <a id="addBalance" class="dropdown-item" href="#"
-                ><i class="fa-solid fa-coins"></i> Bakiye Yükle</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-wallet"></i> Para Çek</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="messageBtn">
-          <a href="#"><i class="fa-regular fa-comments"></i></a>
-        </div>
-        <div id="noticesBtn" class="dropdown">
-          <button
-            class="btn dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="fa-regular fa-bell"></i>
-          </button>
-          <ul class="dropdown-menu">
-            <li id="notice">
-              <a href="#"
-                ><img
-                  id="messageIcon"
-                  src="/assets/images/message-icon.png"
-                  alt="Bildirim"
-                />
-                <div>
-                  <p id="noticeTitle">Teslimat Bildirimi</p>
-                  <p id="noticeDesc">⭐ Satın almış olduğunuz ürün satı...</p>
-                </div></a
-              >
-            </li>
-            <li>
-              <a href="#"><button id="allNotices">Tüm Bildirimler</button></a>
-            </li>
-          </ul>
-        </div>
-        <div id="profileBtn" class="dropdown">
-          <button
-            class="btn dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              id="profileImg"
-              src="/assets/images/zzistaken_pp2.png"
-              alt="Zzistaken"
-            />
-          </button>
-          <ul class="dropdown-menu">
-            <li id="user">
-              <a href="#"
-                ><img
-                  id="levelBadge"
-                  src="/assets/images/level-badge.png"
-                  alt="Bildirim"
-                />
-                <div>
-                  <p id="noticeTitle">zzistaken</p>
-                  <p id="noticeDesc">0.00₺</p>
-                </div></a
-              >
-            </li>
-            <li>
-              <a id="addBalance" class="dropdown-item" href="#"
-                ><i class="fa-solid fa-coins"></i> Bakiye Yükle</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-user"></i> Profilim</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-clipboard-user"></i></i> Kontrol Merkezi</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-basket-shopping"></i> Siparişlerim</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-store"></i> İlanlarım</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-wallet"></i> Para Çek</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-life-ring"></i> Destek Sistemi</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                ><i class="fa-solid fa-right-from-bracket"></i> Çıkış</a
-              >
-            </li>
-          </ul>
+          </div>
+          <div class="col-4 videos">
+            <div style="margin-bottom: 1rem" class="row">
+              <video
+                autoplay
+                loop
+                src="/assets/videos/valorant-video.mp4"
+              ></video>
+            </div>
+            <div class="row">
+              <video
+                autoplay
+                loop
+                src="/assets/videos/valorant-video2.mp4"
+              ></video>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid navbar">
-      <ul>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-list"></i> Kategoriler</a></li>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-basket-shopping"></i> İlan Pazarı</a></li>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-bag-shopping"></i> Alım İlanları</a></li>
-        <li class="navItem"><a id="giveaway" href="#"><i class="fa-solid fa-gift"></i> Çekilişler</a></li>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-store"></i> Mağazalar</a></li>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-box-open"></i> Hediye Kartları</a></li>
-        <li class="navItem"><a href="#"><i class="fa-solid fa-key"></i> CD-Key</a></li>
-        <a href="#">
-          <button id="addAdvert"><i class="fa-solid fa-plus"></i> İlan Ekle</button>
-        </a>
-      </ul>
-    </div>
-
+    </section>
+    <section>
+      <div class="container categories">
+        <div class="categoryBox">
+          <a href="#"
+            ><img src="/assets/images/categories/cd-key-538.png" alt="CD Key"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/random-key-330.png"
+              alt="Random Key"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/sosyal-medya-442.png"
+              alt="Sosyal Medya"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/mmo-oyunlar-923.png"
+              alt="MMO Oyunlar"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/mobil-oyun-341.png"
+              alt="Mobil Oyunlar"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/random-hesap-45.png"
+              alt="Random Hesaplar"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/hediye-karti-336.png"
+              alt="Hediye Kartı"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/boost-40.png"
+              alt="Boost Hizmeti"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/categories/diger-354.png"
+              alt="Diğer Ürünler"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container ads">
+        adList
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
