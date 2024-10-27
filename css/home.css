@@ -31,26 +31,96 @@
 /* SLIDER */
 
 .big-slider {
-    padding: 0rem;
+  padding: 0rem;
 }
 
 .big-slider > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 0.4rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
 }
 
 .videos {
-    padding-right: 0rem;
+  padding-right: 0rem;
 }
 
 /* ADS */
 
 .ads {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #323448;
-    border-radius: 0.4rem;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #323448;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.adBox {
+  max-width: 200px;
+  background:linear-gradient(#25273b,#6163cd1f);
+  color: #d8d8ed;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  box-shadow: 0px 0px 5px #25273b;
+}
+
+.adBox:hover {
+  border: 1px solid #6163cda6;
+}
+
+.ad {
+  border-bottom: 1px solid #d8d8ed2a;
+  position: relative;
+}
+
+.ad > img {
+  width: 100%;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.adTitle {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.adDesc {
+  color: #9494a1;
+  margin-bottom: 0.4rem;
+  font-size:0.7rem;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.seller {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.sellerImg {
+  height: 32px;
+}
+
+.sellerInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.adPrice {
+  background: linear-gradient(90deg,#5a609a,#727ac9);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 110px;
+  right: 8px;
 }
