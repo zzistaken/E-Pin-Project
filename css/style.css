@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #383c4f;
+  color: #d8d8ed;
+}
+
+/* NAV */
+
+.navtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #25273b;
+}
+
+/* LOGO */
+
+.logoArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 28px;
+  margin-right: 1rem;
+}
+
+/* LANG */
+
+#langBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 38px;
+  background-color: #2b2d44;
+  border: 1px solid #484c72;
+  border-radius: 0.4rem;
+  color: #d8d8ed;
+  font-weight: 500;
+}
+#langBtn:hover {
+  color: white;
+}
+
+#langSwitch {
+  height: 24px;
+  border-radius: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+/* SEARCH */
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 358px;
+  width: 506px;
+  height: 40px;
+  margin: 0rem 1rem;
+  padding: 0rem 0.5rem;
+  background-color: #3f4356;
+  border-radius: 0.4rem;
+}
+
+#searchBar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #d8d8ed;
+  border: none;
+  font-size: 0.9rem;
+}
+
+#searchBar:focus {
+  outline: none;
+}
+
+#searchIcon {
+  color: #d8d8ed;
+  margin-left: 0.5rem;
+}
+
+/* USER CTRL */
+
+.userControls {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-toggle {
+  border: none;
+  background-color: #25273b;
+  color: #d8d8ed;
+}
+
+.dropdown-toggle:hover {
+  background-color: #2b2d44;
+}
+
+#balanceBadge {
+  background-color: rgb(0, 180, 0);
+}
+
+.dropdown-menu {
+  background-color: #323448;
+  padding: 0.4rem 0.6rem;
+}
+
+#addBalance {
+  background: linear-gradient(90deg, #444765, #52578e);
+}
+
+.dropdown-item {
+  border-radius: 0.3rem;
+  background-color: #2b2d44;
+  color: #d8d8ed;
+  margin-top: 0.3rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.dropdown-item:hover,
+#addBalance:hover {
+  background: #25273b;
+  color: #d8d8ed;
+}
+
+.messageBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 70px;
+}
+
+.messageBtn:hover {
+  background-color: #2b2d44;
+}
+
+.messageBtn > a {
+  color: #d8d8ed;
+}
+
+#notice {
+  margin-bottom: 0.4rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: #2d2f43;
+  color: #d8d8ed;
+}
+
+#notice > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#notice:hover {
+  background-color: #25273b;
+}
+
+#messageIcon {
+  height: 30px;
+}
+
+#noticeTitle {
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#noticeDesc {
+  font-size: 0.8rem;
+  color: #d8d8ed;
+}
+
+#allNotices {
+  width: 300px;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: #5566d7;
+  color: #d8d8ed;
+  font-size: 0.9rem;
+}
+
+#profileImg {
+  height: 36px;
+  border-radius: 50px;
+  border: 2px solid #444e90;
+}
+
+#user {
+  margin-bottom: 0.4rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: #2d2f43;
+  color: #d8d8ed;
+}
+
+#user > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user:hover {
+  background-color: #25273b;
+}
+
+#levelBadge {
+  margin-right: 1rem;
+  height: 48px;
+}
+
+/* MENU */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #323448;
+  padding: 0rem 12px;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar > ul > li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0rem 0.74rem;
+}
+
+.navbar > ul > li:hover {
+  background-color: #25273b;
+}
+
+.navItem > a {
+  color: #d8d8ed;
+  font-size: 0.9rem;
+}
+
+.navItem > a > i {
+  margin-right: 0.4rem;
+}
+
+#giveaway {
+  color: gold;
+  text-shadow: 0 0 1rem #fabc1b;
+}
+
+#addAdvert {
+  height: 36px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 36px;
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, #6162cd, #6e9ff4);
+  color: #d8d8ed;
+}
