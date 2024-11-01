@@ -293,3 +293,120 @@ body {
   background: linear-gradient(90deg, #6162cd, #6e9ff4);
   color: #d8d8ed;
 }
+
+/* FOOTER */
+
+.footer {
+  margin-top: 4rem;
+}
+
+.footerCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(transparent, #383c4f);
+  padding-bottom: 3rem;
+}
+
+.footerImg {
+  max-width: 80px;
+}
+
+.footerInfoBox {
+  margin-left: 1rem;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  background-color: #7155ce;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  padding: 0.6rem 2rem;
+}
+
+.footerButton:hover {
+  background-color: #7855ec;
+}
+
+.links {
+  background-color: #383c4f;
+  border-bottom: 1px solid #d8d8ed56;
+}
+
+.links > .col > div {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.links > .col > ul {
+  padding: 0;
+}
+
+.links > .col > ul > li > a {
+  font-size: 0.8rem;
+  color: #d8d8ed;
+}
+
+.links > .col > div > i {
+  margin-right: 0.5rem;
+}
+
+.socialButtons {
+  display: flex;
+}
+
+.socialBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  background-color: #393e50;
+  margin: 0.2rem;
+}
+
+.socialBox > a {
+  color: #d8d8ed;
+  font-weight: 400;
+}
+
+.contactBox > a {
+  color: #d8d8ed;
+  font-weight: 400;
+}
+
+.socialBox:hover {
+  background-color: #3f4356;
+}
+
+.contactBox:hover {
+  background-color: #3f4356;
+}
+
+.contactBox {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border-radius: 0.4rem;
+  background-color: #393e50;
+  margin: 0.4rem;
+  padding: 0rem 1rem;
+}
+
+.contactBox > a > i {
+  margin-right: 0.4rem;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  background-color: #383c4f;
+}
