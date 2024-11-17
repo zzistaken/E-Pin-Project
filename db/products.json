@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Valorant 130 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-130-vp-100.png",
+      "price": 38.0,
+      "disPrice": 34.2,
+      "disValue": "10%",
+      "currency": "TL"
+    },
+    {
+      "id": 2,
+      "name": "Valorant 475 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-475-vp-958.png",
+      "price": 108.0,
+      "disPrice": 120.0,
+      "disValue": "10%",
+      "currency": "TL"
+    },
+    {
+      "id": 3,
+      "name": "Valorant 515 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-515-vp-719.png",
+      "price": 129.0,
+      "disPrice": 150.0,
+      "disValue": "14%",
+      "currency": "TL"
+    },
+    {
+      "id": 4,
+      "name": "Valorant 1000 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-1000-vp-629.png",
+      "price": 212.5,
+      "disPrice": 250.0,
+      "disValue": "15%",
+      "currency": "TL"
+    },
+    {
+      "id": 5,
+      "name": "Valorant 2050 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-2050-vp-636.png",
+      "price": 450.0,
+      "disPrice": 500.0,
+      "disValue": "10%",
+      "currency": "TL"
+    },
+    {
+      "id": 6,
+      "name": "Valorant 3650 VP",
+      "category": "Valorant",
+      "img": "/assets/images/pins/valorant/valorant-3650-vp-959.png",
+      "price": 765.0,
+      "disPrice": 850.0,
+      "disValue": "10%",
+      "currency": "TL"
+    },
+    {
+      "id": 7,
+      "name": "5 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/5-usd-steam-cuzdan-kodu-382.png",
+      "price": 175.75,
+      "disPrice": 185.0,
+      "disValue": "5%",
+      "currency": "TL"
+    },
+    {
+      "id": 8,
+      "name": "10 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/10-usd-steam-cuzdan-kodu-444.png",
+      "price": 351.5,
+      "disPrice": 370.0,
+      "disValue": "5%",
+      "currency": "TL"
+    },
+    {
+      "id": 9,
+      "name": "20 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/20-usd-steam-cuzdan-kodu-958.png",
+      "price": 698.25,
+      "disPrice": 735.0,
+      "disValue": "5%",
+      "currency": "TL"
+    },
+    {
+      "id": 10,
+      "name": "25 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/25-usd-steam-cuzdan-kodu-155.png",
+      "price": 874.0,
+      "disPrice": 920.0,
+      "disValue": "5%",
+      "currency": "TL"
+    },
+    {
+      "id": 11,
+      "name": "50 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/50-usd-steam-cuzdan-kodu-830.png",
+      "price": 1757.5,
+      "disPrice": 1850.0,
+      "disValue": "5%",
+      "currency": "TL"
+    },
+    {
+      "id": 12,
+      "name": "100 USD Steam Cüzdan Kodu",
+      "category": "Steam",
+      "img": "/assets/images/pins/steam/100-usd-steam-cuzdan-kodu-907.png",
+      "price": 3478.0,
+      "disPrice": 3700.0,
+      "disValue": "6%",
+      "currency": "TL"
+    }
+  ]
+}
