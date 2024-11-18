@@ -7,7 +7,7 @@
     <!-- Favicon -->
     <link
       rel="shortcut icon"
-      href="/assets/images/logo.png"
+      href="/assets/images/important/logo.png"
       type="image/x-icon"
     />
     <!-- Font Awesome -->
@@ -43,7 +43,7 @@
           <a href="index.html">
             <img
               id="logo"
-              src="/assets/images/itemsatis-logo.png"
+              src="/assets/images/important/itemsatis-logo.png"
               alt="İtemsatış"
             />
           </a>
@@ -51,7 +51,7 @@
             ><button id="langBtn">
               <img
                 id="langSwitch"
-                src="/assets/images/lang-switch.png"
+                src="/assets/images/important/lang-switch.png"
                 alt="TR/EN"
               />
               EN
@@ -105,17 +105,20 @@
             >
               <i class="fa-regular fa-bell"></i>
             </button>
-            <ul class="dropdown-menu">
+            <ul id="noticeBox" class="dropdown-menu">
               <li id="notice">
                 <a href="#"
                   ><img
                     id="messageIcon"
-                    src="/assets/images/message-icon.png"
+                    src="/assets/images/important/message-icon.png"
                     alt="Bildirim"
                   />
-                  <div>
+                  <div class="noticeDetailBox">
                     <p id="noticeTitle">Teslimat Bildirimi</p>
-                    <p id="noticeDesc">⭐ Satın almış olduğunuz ürün satı...</p>
+                    <p id="noticeDesc">
+                      ⭐ Satın almış olduğunuz ürün satıcı tarafından teslim
+                      edilmiştir.
+                    </p>
                   </div></a
                 >
               </li>
@@ -133,21 +136,31 @@
             >
               <img
                 id="profileImg"
-                src="/assets/images/zzistaken_pp2.png"
+                src="/assets/images/important/zzistaken_pp2.png"
                 alt="Zzistaken"
               />
             </button>
-            <ul class="dropdown-menu">
+            <ul id="userMenu" class="dropdown-menu">
               <li id="user">
                 <a href="#"
                   ><img
                     id="levelBadge"
-                    src="/assets/images/level-badge.png"
-                    alt="Bildirim"
+                    src="/assets/images/important/level-badge.png"
+                    alt="Seviye"
                   />
                   <div>
-                    <p id="noticeTitle">zzistaken</p>
-                    <p id="noticeDesc">0.00₺</p>
+                    <p
+                      id="username"
+                      style="
+                        width: 96px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                      "
+                    >
+                      zzistaken
+                    </p>
+                    <p id="userBalance">0.00₺</p>
                   </div></a
                 >
               </li>
@@ -224,7 +237,7 @@
           <li class="navItem">
             <a href="#"><i class="fa-solid fa-key"></i> CD-Key</a>
           </li>
-          <a href="#">
+          <a href="ilanekle.html">
             <button id="addAdvert">
               <i class="fa-solid fa-plus"></i> İlan Ekle
             </button>
@@ -277,7 +290,7 @@
           <div class="col-8 big-slider">
             <img
               sizes="contain"
-              src="/assets/images/valorant-slide.png"
+              src="/assets/images/important/valorant-slide.png"
               alt="Valorant"
             />
           </div>
@@ -350,36 +363,7 @@
       </div>
     </section>
     <section>
-      <div class="container ads">
-        <a href="#"
-          ><div class="adBox">
-            <div class="ad">
-              <img
-                src="/assets/images/ads/3-aylik-spotify-premium.png"
-                alt="Title"
-              />
-              <span class="adPrice">25,00 TL</span>
-              <h6 class="adTitle">3 Aylık Spotify Premium</h6>
-              <p class="adDesc">
-                1 Adet 3 Aylık Premium Dijital Kod Teslim Edilmektedir.
-              </p>
-            </div>
-            <div class="seller">
-              <img
-                class="sellerImg"
-                src="/assets/images/logo.png"
-                alt="Zzistaken"
-              />
-              <div class="sellerInfo">
-                <p style="font-size: x-small; margin: 0rem; color: #9494a1">
-                  SATICI
-                </p>
-                <p style="font-size: small; margin: 0rem">Zzistaken</p>
-              </div>
-            </div>
-          </div></a
-        >
-      </div>
+      <div id="homeAds" class="container ads"></div>
     </section>
     <section>
       <div class="container showMore">
@@ -396,7 +380,7 @@
             <div class="row">
               <a href="#">
                 <img
-                  src="/assets/images/fortnite-729.png"
+                  src="/assets/images/important/fortnite-729.png"
                   alt="Fortnite"
                   class="slideSm1"
                 />
@@ -405,7 +389,7 @@
             <div class="row">
               <a href="#">
                 <img
-                  src="/assets/images/clashroyale-533.png"
+                  src="/assets/images/important/clashroyale-533.png"
                   alt="Clash Royale"
                   class="slideSm2"
                 />
@@ -415,7 +399,7 @@
           <div class="col-6">
             <a href="#">
               <img
-                src="/assets/images/mlbb-442.png"
+                src="/assets/images/important/mlbb-442.png"
                 alt="Mobile Legends"
                 class="slide2"
               />
@@ -425,7 +409,7 @@
             <div class="row">
               <a href="#">
                 <img
-                  src="/assets/images/lolunranked-999.png"
+                  src="/assets/images/important/lolunranked-999.png"
                   alt="League Of Legends"
                   class="slideSm3"
                 />
@@ -434,7 +418,7 @@
             <div class="row">
               <a href="#">
                 <img
-                  src="/assets/images/pubgmobile-512.png"
+                  src="/assets/images/important/pubgmobile-512.png"
                   alt="Pubg Mobile"
                   class="slideSm4"
                 />
@@ -455,9 +439,7 @@
           "
           ><i class="fa-solid fa-fire"></i> Çok Satılan E-pin Ürünleri</a
         >
-        <div id="homeValorantPins" class="pins">
-          
-        </div>
+        <div id="homeValorantPins" class="pins"></div>
       </div>
     </section>
     <section>
@@ -471,9 +453,7 @@
           "
           ><i class="fa-solid fa-fire"></i> Çok Satılan E-pin Ürünleri</a
         >
-        <div id="homeSteamPins" class="pins">
-          
-        </div>
+        <div id="homeSteamPins" class="pins"></div>
       </div>
     </section>
     <footer>
@@ -483,7 +463,7 @@
             <div class="col footerCol">
               <img
                 class="footerImg"
-                src="/assets/images/ilanpazari.png"
+                src="/assets/images/important/ilanpazari.png"
                 alt="İlan Pazarı"
               />
               <div class="footerInfoBox">
@@ -499,7 +479,7 @@
             <div class="col footerCol">
               <img
                 class="footerImg"
-                src="/assets/images/magazalar.png"
+                src="/assets/images/important/magazalar.png"
                 alt="Mağazalar"
               />
               <div class="footerInfoBox">
@@ -515,7 +495,7 @@
             <div class="col footerCol">
               <img
                 class="footerImg"
-                src="/assets/images/guvenlialisveris.png"
+                src="/assets/images/important/guvenlialisveris.png"
                 alt="Güvenli Alışveriş"
               />
               <div class="footerInfoBox">
@@ -545,7 +525,7 @@
                 <li><a href="#">Bakiye Yükle</a></li>
                 <li><a href="#">Para Çek</a></li>
                 <li><a href="#">Kontrol Merkezi</a></li>
-                <li><a href="#">İlan Ekle</a></li>
+                <li><a href="ilanekle.html">İlan Ekle</a></li>
                 <li><a href="#">Alım İlanları</a></li>
                 <li><a href="#">CD Key</a></li>
                 <li><a href="#">Yardım Merkezi</a></li>
@@ -643,7 +623,7 @@
           <div class="payment">
             <img
               height="24px"
-              src="/assets/images/odemeyontemleri.png"
+              src="/assets/images/important/odemeyontemleri.png"
               alt="Ödeme Yöntemleri"
             />
           </div>

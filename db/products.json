@@ -120,5 +120,67 @@
       "disValue": "6%",
       "currency": "TL"
     }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "title": "⭐ BOŞ YOK | 20TL PUBGM RANDOM HESAP",
+      "description": "Hesap Hakkında Bilgi:Hesap kostüm garantilidir.Boş hesap yoktur.Her hesap sadece 1 kişiye satılmaktadır.Hesaplarımız garantilidir.Aktif olmasak bile ilanı alabilirsiniz. Otomatik teslimattır hesap bilgileriniz anında gönderilir.Diğer ilanlarımıza bakabilirsiniz.",
+      "img": "/assets/images/ads/bos-yok-20tl-pubgm-random-hesap.png",
+      "price": 20.0,
+      "currency": "TL",
+      "sellerName": "ValorantRandomHesap",
+      "sellerImg": "/assets/images/ads/sellers/e3f95058109094c6246b4f99af0288b1.png"
+    },
+    {
+      "id": 2,
+      "title": "⭐KALİTELİ⭐1000⭐ TELEGRAM ÜYE",
+      "description": "[GARANTİLİ] TELEGRAM 1000 ÜYE⭐ İLANINA HOŞ GELDİNİZ.İlanı aldığınız an gönderim başlar otomatik teslimattır aktif olmamı beklemenize gerek yok.En kaliteli satıcı olarak güvenerek satın alabilirsiniz.Satın alacağınız ürün ile alakalı detaylı",
+      "img": "/assets/images/ads/kaliteli-1000-telegram-uye-63351.png",
+      "price": 20.0,
+      "currency": "TL",
+      "sellerName": "MajesteShopp",
+      "sellerImg": "/assets/images/ads/sellers/f9a1af2b9c5f54c10a858b2a42a6c3dd.png"
+    },
+    {
+      "id": 3,
+      "title": "3 Aylık Minecraft Premium / Oto-Teslim",
+      "description": "➤ ÜRÜN HAKKINDA GENEL DETAY :7/24 otomatik olarak teslim edilir.Microsoft üzerinden giriş yapılır, online premium sunuculara erişirsiniz.Java & Bedrock olmak üzere tüm sürümleri destekler.Tamamen orijinal hesap, orijinal launcher ile",
+      "img": "/assets/images/ads/3-aylik-minecraft-premium-oto-te.png",
+      "price": 35.0,
+      "currency": "TL",
+      "sellerName": "Sinquary",
+      "sellerImg": "/assets/images/ads/sellers/52abaa5d817da2d75289cb887e603cdc.png"
+    },
+    {
+      "id": 4,
+      "title": "[ULTRAVIP+] %100 50-120 SKİN MAİL DEĞİŞEN",
+      "description": "%100 Güvenli ve Hızlı Teslimat! 50-120 Arası Fortnite Skinli Hesap ⭐️Bu ilanı satın aldığınız anda, hesabınız otomatik olarak teslim edilir ve hemen kullanmaya başlayabilirsiniz!Neden Biz?Hızlı Teslimat: Hesabınız, satın alır almaz otomatik olarak",
+      "img": "/assets/images/ads/ultravip-100-50-120-skin-mail-de.png",
+      "price": 289.9,
+      "currency": "TL",
+      "sellerName": "Wonski",
+      "sellerImg": "/assets/images/ads/sellers/e5b798bea33a306c16d505d8daa20e34.png"
+    },
+    {
+      "id": 5,
+      "title": "INSTAGRAM 500 GERÇEK TAKİPÇİ",
+      "description": "Bütün takipçilerde profil fotoğrafı vardır hepsi kaliteli hesaplar oluşur.Riski yoktur hesap gelişiminde etkilidir.Kullanıcı adınızı & kullanıcı linkini iletmeniz yeterlidir.İstediğiniz özel bir miktar var ise iletişime geçebilirsiniz.Diğer sosyal medya",
+      "img": "/assets/images/ads/kaliteli-instagram-500-gercek-ta.png",
+      "price": 24.9,
+      "currency": "TL",
+      "sellerName": "Luuci7",
+      "sellerImg": "/assets/images/ads/sellers/2158750c43504bd106bc64eaf6f14122.png"
+    },
+    {
+      "id": 6,
+      "title": "ChatGPT 4.0 Plus + GPT-4o + Dall e",
+      "description": "7/24 OTOMATİK TESLİMATTIRBu ürünü aldığınızda ChatGPT 4.0 Plus + 4o sürüm hesap iletilecektir.Aktif olmasak da alabilirsiniz otomatik teslimattır.Paylaşımlı hesaptır, sorunsuzca kullanabilirsiniz.Paylaşımlı hesap olmasından dolayı limit",
+      "img": "/assets/images/ads/chatgpt-40-plus-gpt-4o-dall-e-95.png",
+      "price": 59.9,
+      "currency": "TL",
+      "sellerName": "UnrankedSelf",
+      "sellerImg": "/assets/images/ads/sellers/918f8fbfaf0e15b5502bac510fd7f4f3.png"
+    }
   ]
 }

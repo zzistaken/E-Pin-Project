@@ -19,7 +19,7 @@ li {
 
 body {
   background-color: #383c4f;
-  background-image: url(/assets/images/bg-pattern.png);
+  background-image: url(/assets/images/important/bg-pattern.png);
   color: #d8d8ed;
 }
 
@@ -166,9 +166,13 @@ body {
   color: #d8d8ed;
 }
 
+#noticeBox {
+  max-width: 300px;
+}
+
 #notice {
   margin-bottom: 0.4rem;
-  padding: 1rem;
+  padding: 0.6rem;
   border-radius: 0.4rem;
   background-color: #2d2f43;
   color: #d8d8ed;
@@ -184,29 +188,44 @@ body {
   background-color: #25273b;
 }
 
+.noticeDetailBox {
+  max-width: 90%;
+}
+
 #messageIcon {
   height: 30px;
+  margin-right: 0.5rem;
 }
 
 #noticeTitle {
   color: white;
   font-weight: 500;
   font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #noticeDesc {
   font-size: 0.8rem;
   color: #d8d8ed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #allNotices {
-  width: 300px;
+  width: 100%;
   border: none;
   border-radius: 1rem;
   padding: 0.2rem 0.4rem;
   background-color: #5566d7;
   color: #d8d8ed;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+#allNotices:hover {
+  color: white;
 }
 
 #profileImg {
@@ -234,8 +253,19 @@ body {
 }
 
 #levelBadge {
-  margin-right: 1rem;
+  margin-right: 0.6rem;
   height: 48px;
+}
+
+#username {
+  color: #d8d8ed;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#userBalance {
+  color: #d8d8ed;
+  font-size: 0.9rem;
 }
 
 /* MENU */

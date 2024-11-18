@@ -1,0 +1,43 @@
+.formBox {
+  margin-top: 1rem;
+  background-color: #323448;
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+.categoryBox {
+  max-width: 400px;
+}
+
+.adInputLabels {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.adInputs {
+  background-color: #3f4257;
+  border: none;
+  color: #d8d8ed;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.adInputs:focus {
+  background-color: #3f4257;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.priceBox {
+    max-width: 400px;
+}
+
+.adBtn {
+    background-color: #669bfa;
+    border:none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+}

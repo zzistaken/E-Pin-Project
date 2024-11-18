@@ -3,6 +3,7 @@ eventListeners();
 function eventListeners() {
   document.addEventListener("DOMContentLoaded", function () {
     getProducts();
+    getAds();
   });
 }
 
@@ -62,6 +63,47 @@ getProducts = () => {
                 </p>
               </div>
             </a>`;
+    });
+  });
+};
+
+getAds = () => {
+  const request = new Request();
+
+  request.get("http://localhost:3000/ads/").then((ads) => {
+    const adlist = document.getElementById("homeAds");
+
+    ads.forEach((ad) => {
+      adlist.innerHTML += `<a href="#"
+          ><div class="adBox">
+            <div class="ad">
+              <img
+                src="${ad.img}"
+                alt="${ad.title}"
+              />
+              <span class="adPrice">${ad.price} ${ad.currency}</span>
+              <h6 class="adTitle">${ad.title}</h6>
+              <p class="adDesc">
+              ${ad.description}
+              </p>
+            </div>
+            <div class="seller">
+              <img
+                class="sellerImg"
+                src="${ad.sellerImg}"
+                alt="Zzistaken"
+              />
+              <div class="sellerInfo">
+                <p style="font-size: x-small; margin: 0rem; color: #9494a1">
+                  SATICI
+                </p>
+                <p id="sellerName" style="font-size: small; margin: 0rem">
+                ${ad.sellerName}
+                </p>
+              </div>
+            </div>
+          </div></a
+        >`;
     });
   });
 };
